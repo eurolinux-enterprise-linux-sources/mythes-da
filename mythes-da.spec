@@ -2,7 +2,7 @@ Name: mythes-da
 Summary: Danish thesaurus
 %define upstreamid 20100629.15.16
 Version: 0.%{upstreamid}
-Release: 5%{?dist}
+Release: 6%{?dist}
 Source: http://extensions.services.openoffice.org/e-files/1388/12/DanskeSynonymer.oxt
 Group: Applications/Text
 URL: http://synonym.oooforum.dk
@@ -39,6 +39,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20100629.15.16-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20100629.15.16-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
